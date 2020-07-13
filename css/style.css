@@ -1,0 +1,83 @@
+form {
+  background-color: darkgrey;
+}
+.card {
+  background-color: grey;
+  height: 100%;
+}
+.card-img-top{
+  width: 300px !important;
+  height: 300px !important;
+}
+background {
+  display: block;
+  background-image: url(https://wallpaperaccess.com/full/1542410.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+background2 {
+  display: block;
+  background-color: darkgrey;
+}
+.col-sm-4 {
+  margin-top: 25px;
+}
+.card-header{
+  margin-top: 0px;
+}
+
+/*!
+ * gejat bij een of andere animation site
+ */
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@media (print), (prefers-reduced-motion: reduce) {
+  .animated {
+    -webkit-animation-duration: 1ms !important;
+    animation-duration: 1ms !important;
+    -webkit-transition-duration: 1ms !important;
+    transition-duration: 1ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+    animation-iteration-count: 1 !important;
+  }
+}

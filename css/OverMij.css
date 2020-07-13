@@ -1,0 +1,56 @@
+*
+{
+
+  box-sizing: border-box;
+}
+body {
+  background: white;
+  font-family: sans-serif;
+}
+cv {
+  display: block;
+  background-color: grey;
+}
+background {
+  display: block;
+  background-color: darkgrey;
+}
+p {
+  color: black;
+}
+.moetff {
+  color: #F5F5F5;
+}
+span {
+  padding: 10px 20px 10px 20px;
+}
+hr {
+  border-width: 2px;
+  margin-top: 6px;
+}
+footer img {
+	width: 5%;
+}
+.Test {
+  margin-left: 50px;
+}
+.jaar {
+  float: right;
+}
+balk {
+  display: block;
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+.skills {
+  text-align: center; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+.php {width: 60%; background-color: #808080;}
+.Csharp {width: 55%; background-color: #2196F3;}
+.HTML  {width: 90%; background-color: #4CAF50;}
+.Java {width: 65%; background-color: #f44336;}
+.Wordpress {width: 75%; background-color: purple;}
+.Drupal {width: 50%; background-color: orange;}

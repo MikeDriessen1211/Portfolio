@@ -1,0 +1,58 @@
+/* Stijlen voor Portfolio */
+html, body {
+	height: 100%;
+	width: 100%;
+}
+background {
+	display: block;
+	background-color: darkgrey;
+}
+#home {
+	background: url(afbeeldingen/programmeren.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+}
+.landing-text h1 {
+	font-size: 250%;
+	font-weight: 700;
+}
+.padding {
+	padding: 80px 0;
+}
+.padding img {
+	width: 100%;
+}
+.padding2 {
+	padding: 80px 0;
+}
+.padding2 img {
+	width: 50%;
+}
+#fixed {
+	background: url(afbeeldingen/programmeren.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+footer img {
+	width: 5%;
+}
+header {
+	background-color: white;
+}
+.header {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
